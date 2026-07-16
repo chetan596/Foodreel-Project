@@ -1,0 +1,53 @@
+:root {
+  --primary: #FF4D4F;
+  --primary-hover: #E63E41;
+  --primary-light: #FF6B6D;
+
+  --bg: #F8F8F8;
+  --surface: #FFFFFF;
+  --surface-secondary: #F1F3F5;
+
+  --text-primary: #111827;
+  --text-secondary: #6B7280;
+  --text-muted: #9CA3AF;
+
+  --border: #E5E7EB;
+  --input-border: #D1D5DB;
+
+  --input-bg: #FFFFFF;
+
+  --orange: #D26B27;
+  --gold: #E19B5C;
+
+  
+}
+
+
+@media (prefers-color-scheme: dark
+) {
+  :root {
+    --bg: #0F0F10;
+    --surface: #18181B;
+    --surface-secondary: #222225;
+
+    --text-primary: #FFFFFF;
+    --text-secondary: #C7C7C7;
+    --text-muted: #8B8B8B;
+
+    --border: #2E2E33;
+    --input-border: #333338;
+
+    --input-bg: #1F1F23;
+
+    --orange: #D26B27;
+    --gold: #E19B5C;
+  }
+  .user-loginImage {
+    background-image: url("/src/assets/loginImage2.png");
+
+  }
+  .food-loginImage{
+      background-image: url("/src/assets/foodPartnerLoginImg.png");
+
+  }
+}

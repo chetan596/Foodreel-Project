@@ -1,0 +1,167 @@
+/* .imageDiv{
+    background-image: u;
+} */
+
+.text-secondary {
+  color: var(--text-muted);
+}
+
+.user-input-div {
+  border: 1px solid var(--text-muted);
+  border-radius: 0.3rem;
+}
+.main-login-divUser{
+   /* border: 1px solid ; */
+   background-color: var(--bg);
+}
+
+.userLoginInput {
+  width: 21rem;
+  padding: 0.7rem 0.9rem;
+  /* background: rgb(144, 55, 55); */
+  border: none;
+  outline: none;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+}
+
+.userLoginInput::placeholder {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+.user-login-from-icon {
+  padding: 0.7rem 0.9rem;
+  /* background: rgb(144, 55, 55); */
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+  color: var(--text-secondary);
+}
+
+/* .user-from-login-checkbox:checked{
+    background-color: red;
+} */
+
+/* Custom Checkbox */
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  background: transparent;
+  border: 2px solid var(--text-muted);
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  margin-right: 0.6rem;
+}
+
+/* Checked State */
+input[type="checkbox"]:checked::after {
+  content: "✓";
+  color: var(--text-muted);
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  background: transparent;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tem-cnd {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.tem-cnd span {
+  color: var(--primary);
+}
+
+.user-login-buttom {
+  width: 100%;
+  background-color: var(--primary);
+  padding: 0.7rem 0.9rem;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: tranform 0.1s ease-in-out;
+  cursor: pointer;
+}
+.user-login-buttom:active{
+    scale: calc(0.97);
+}
+.user-loginImage {
+     background-image: url("/src/assets/lightModeLoginImg.png");
+
+ 
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  /* width: 100%; */
+}
+.food-loginImage {
+    background-image: url("/src/assets/foodPartnerLoginImgLight.png") ;
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+button{
+  cursor: pointer;
+}
+
+.google_auth{
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.google_auth button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  padding: 0.7rem 0.9rem;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  border: 1px solid var(--text-muted);
+  font-weight: 600;
+}
+
+.google_auth button img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 0.5rem;
+
+}
+
+.user-login-from-gap div{
+    height: 1px;
+    width: 40%;
+    background-color: var(--text-muted);
+}
+
+
+
+
+
+.FoodParLogo {
+  height: 3rem;
+  width: 15rem;
+  /* background-color: red; */
+  margin-bottom: 3.5rem;
+}
+
+.FoodParLogo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.foodLg2{
+    margin-bottom: 2rem !important;
+}
+
+.wl-textlg{
+  margin-bottom: 2rem !important;
+}
