@@ -88,7 +88,9 @@ const logoutUser = (req, res)=>{
 
 
 const registerFoodPartner = async (req, res) => {
+    console.log(req.body)
     const {name, email, password } = req.body;
+
 
     const isFoodPartnerAlreadyExist = await foodPartnerModel.findOne({email: email});
 
