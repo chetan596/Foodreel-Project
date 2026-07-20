@@ -6,6 +6,11 @@
   color: var(--text-muted);
 }
 
+
+.fd-text{
+  color: var(  --fd-text);
+}
+
 .user-input-div {
   border: 1px solid var(--text-muted);
   border-radius: 0.3rem;
@@ -16,7 +21,7 @@
 }
 
 .userLoginInput {
-  width: 21rem;
+  width: 27rem;
   padding: 0.7rem 0.9rem;
   /* background: rgb(144, 55, 55); */
   border: none;
@@ -79,6 +84,16 @@ input[type="checkbox"]:checked::after {
 .user-login-buttom {
   width: 100%;
   background-color: var(--primary);
+  padding: 0.7rem 0.9rem;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: tranform 0.1s ease-in-out;
+  cursor: pointer;
+}
+.fd-login-buttom {
+  width: 100%;
+  background-color: var(--fd-text);
   padding: 0.7rem 0.9rem;
   border-radius: 0.3rem;
   font-size: 1rem;

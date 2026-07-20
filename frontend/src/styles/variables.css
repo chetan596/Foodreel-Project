@@ -19,11 +19,13 @@
   --orange: #D26B27;
   --gold: #E19B5C;
 
+
+  --fd-text: #22C55E
   
 }
 
 
-@media (prefers-color-scheme: dark
+@media (prefers-color-scheme: light
 ) {
   :root {
     --bg: #0F0F10;
